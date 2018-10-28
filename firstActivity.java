@@ -15,7 +15,11 @@ public class firstActivity extends AppCompatActivity {
         Intent i=new Intent(firstActivity.this,LoginActivitynew.class);
         firstActivity.this.startActivity(i);
     }
-    @Override
+    
+    
+    
+    
+   
     protected void onResume() {
         super.onResume();
 
