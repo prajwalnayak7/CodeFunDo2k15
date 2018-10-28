@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
         );
     }
 
-
+  
     public static String readFromFile(Context context){
         String ret="";
         try{
@@ -106,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
             outputStreamWriter.write(data);
             outputStreamWriter.close();
         }
-        catch (IOException e){
+        catch (Exception e){
             e.printStackTrace();
         }
 
