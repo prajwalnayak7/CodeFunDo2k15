@@ -25,7 +25,7 @@ public class firstActivity extends AppCompatActivity {
             finish();
             // Do first run stuff here then set 'firstrun' as false
             // using the following line to edit/commit prefs
-            prefs.edit().putBoolean("firstrun", false).commit();
+            prefs.edit().putBoolean("firstrun", true).commit();
         }
     }
 }
